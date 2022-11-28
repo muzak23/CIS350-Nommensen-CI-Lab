@@ -15,3 +15,9 @@ def test_calc_multiply_fail():
 def test_calc_divide():
     output = divide_numbers(10,2)
     assert output == 5
+def test_calc_opposite():
+    output = opposite(2)
+    assert output == -2
+def test_calc_modulo():
+    output = modulo(2, 4)
+    assert output == 2
